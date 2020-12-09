@@ -7,7 +7,7 @@ package zx.consumer.test;
  * @ Modified By：
  * @Version: $version$
  */
-public class ProductConsumerTest {
+public class ProviderConsumerTest {
     public static void main(String[] args) {
         ResourcePool letter = new ResourcePool(5);
         Runnable provider = new Provider(letter);
